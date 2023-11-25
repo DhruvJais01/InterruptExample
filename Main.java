@@ -14,6 +14,8 @@ class Main {
     }
 
     // Interrupt the download thread to signal cancellation
-    downloadThread.interrupt();
+    // downloadThread.interrupt();
+    // Download cancel 
+    downloader.cancelDownload();
   }
 }
